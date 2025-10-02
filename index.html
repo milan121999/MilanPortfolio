@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Milan Paremajalu Suresh — Portfolio</title>
+  <meta name="description" content="Data & Analytics Professional turning messy data into decisions. SQL, Python, BI, forecasting, dashboards." />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Home">
+	  <span class="brand-name">Milan PS</span>
+	  <span class="brand-short">MPS</span> <!-- shows only on small screens -->
+	  </a>
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button id="themeToggle" class="btn icon theme-toggle" aria-label="Toggle theme" data-testid="button-theme-toggle">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z"/>
+          </svg>
+        </button>
+        <!-- <a class="btn small" href="mailto:milanparemajalu@gmail.com?subject=Resume%20Request" rel="noopener">Download Resume</a> -->
+        <a class="btn small" href="assets/Milan_Paremajalu_Suresh_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+        <button id="burger" class="btn icon" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Sheet -->
+  <div class="drawer-overlay" id="mnav-overlay" hidden></div>
+  <aside class="drawer" id="mnav-drawer" role="dialog" aria-modal="true" hidden>
+    <div class="drawer-handle"></div>
+    <nav class="mnav">
+      <a href="#home" class="mnav-link">Home</a>
+      <a href="#about" class="mnav-link">About</a>
+      <a href="#skills" class="mnav-link">Skills</a>
+      <a href="#projects" class="mnav-link">Projects</a>
+      <a href="#experience" class="mnav-link">Experience</a>
+      <a href="#education" class="mnav-link">Education</a>
+      <a href="#certifications" class="mnav-link">Certifications</a>
+      <a href="#contact" class="mnav-link">Contact</a>
+    </nav>
+  </aside>
+
+  <main>
+    <section id="home" class="section hero hero-split">
+      <div class="container">
+		<div class="hero-grid">
+			<div class="hero-photo">
+				<div class="portrait-wrap">
+					<img class="portrait" src="assets/images/Milan_pic.jpg" alt="Milan Paremajalu Suresh" />
+					<span class="ring" aria-hidden="true"></span>
+					<span class="glow" aria-hidden="true"></span>
+				</div>
+			</div>
+		<div class="hero-copy">
+		<p class="intro-eyebrow">Hello, I'm</p>
+		<h1 class="intro-name">Milan Paremajalu Suresh</h1>
+        <h2 class="headline">Data and Business Analytics Professional <br></h2>
+		<h3><span class="accent">Turning messy data into decisions</span></h3>
+        <p class="metrics">
+          <span class="pill">$1.5M+ profit delivered</span>
+          <span class="dot">•</span>
+          <span class="pill">90% efficiency gains</span>
+          <span class="dot">•</span>
+          <span class="pill">3 years expertise</span>
+        </p>
+        <p class="lede maxw">
+          Data and Business Analyst with expertise in SQL, Python, and BI tools. Skilled in dashboards, customer engagement analysis,
+          retention modeling, and advanced visualization with Tableau and Power BI.
+        </p>
+        <div class="cta">
+          <!-- <a class="btn primary" href="mailto:milanparemajalu@gmail.com?subject=Resume%20Request" rel="noopener">Download Resume</a> -->
+          <a class="btn primary" href="assets/Milan_Paremajalu_Suresh_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+          <a class="btn outline" href="#contact">Contact Me →</a>
+        </div>
+        <div class="scroll-indicator" aria-hidden="true">
+          <span class="mouse"><span class="wheel"></span></span>
+        </div>
+	  </div>
+      </div>
+      <div class="bg-blur" aria-hidden="true"></div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="grid one mb-20">
+          <p class="body maxw">
+            I'm a Data and Business Analyst with 3 years of experience transforming complex datasets into actionable business insights.
+            My expertise spans SQL, Python, and advanced BI tools, with a proven track record of delivering measurable results including
+            $1.5M+ in profit gains and 90% efficiency improvements.
+          </p>
+          <p class="body maxw">
+            I have a Master's degree in Business Analytics from Arizona State University (GPA: 3.88). I specialize in customer engagement
+            analysis, retention modeling, and forecasting. My experience includes building enterprise dashboards, automating data workflows,
+            and collaborating with cross‑functional teams to drive data‑driven decision making.
+          </p>
+          <p class="body maxw">
+            I'm passionate about turning messy data into clear stories that drive business value, with particular expertise in customer lifecycle
+            analysis and operational optimization.
+          </p>
+        </div>
+        <h3 class="section-subtitle" style="text-align:center;margin:48px 0 24px 0;">Core Focus Areas</h3>
+        <div class="grid cards four">
+          <div class="card text-center">
+            <!-- Data Engineering -->
+            <div class="card-icon">
+               <img src="assets/images/data_engineering.gif" alt="Data Engineering" width="32" height="32" />
+            </div>
+            <h3 class="card-title">Data Engineering</h3>
+            <p class="card-body">Building robust data pipelines and ensuring data quality for analytics-ready datasets. I design and automate ETL workflows that enable seamless data integration from diverse sources, supporting reliable business intelligence and advanced analytics.</p>
+          </div>
+          <div class="card text-center">
+            <!-- Business Intelligence -->
+            <div class="card-icon">
+              <img src="assets/images/business_intelligence.gif" alt="Business Intelligence" width="32" height="32" />
+            </div>
+            <h3 class="card-title">Business Intelligence</h3>
+            <p class="card-body">Transforming raw data into actionable insights through interactive dashboards and reports. I focus on stakeholder alignment and data storytelling to drive informed decision-making across business functions.</p>
+          </div>
+          <div class="card text-center">
+            <!-- Predictive Analytics -->
+            <div class="card-icon">
+               <img src="assets/images/predictive_analytics.gif" alt="Predictive Analytics" width="32" height="32" />
+            </div>
+            <h3 class="card-title">Predictive Analytics</h3>
+            <p class="card-body">Leveraging statistical models and machine learning to forecast trends and uncover patterns. My approach emphasizes practical, interpretable solutions that improve business outcomes and support proactive strategies.</p>
+          </div>
+          <div class="card text-center">
+            <!-- Business Modeling & Profitability -->
+            <div class="card-icon">
+               <img src="assets/images/business_modeling.gif" alt="Business Modeling & Profitability" width="32" height="32" />
+            </div>
+            <h3 class="card-title">Business Modeling &amp; Profitability</h3>
+            <p class="card-body">Optimizing business processes and financial performance through scenario analysis and decision modeling. I use quantitative techniques to identify opportunities for margin improvement and operational efficiency.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Skills: Card Layout -->
+<section id="skills" class="section">
+  <div class="container">
+    <h2 class="section-title">Skills &amp; Technologies</h2>
+    <p class="body maxw center">A comprehensive toolkit for turning data into actionable insights and business value.</p>
+
+    <div class="skills-card-grid">
+      <article class="skill-card sc-viz">
+        <header class="sc-head">
+          <span class="sc-icon">📊</span>
+          <h3 class="sc-title">Visualization &amp; BI</h3>
+        </header>
+        <ul class="sc-list">
+          <li class="sc-item">
+            <div class="sc-item-title">Power BI <span class="muted">(DAX, M Query)</span></div>
+            <div class="sc-item-desc">Advanced dashboards, automation</div>
+          </li>
+          <li class="sc-item">
+            <div class="sc-item-title">Tableau</div>
+            <div class="sc-item-desc">Interactive visualizations, storytelling</div>
+          </li>
+          <li class="sc-item">
+            <div class="sc-item-title">Excel <span class="muted">(Advanced)</span></div>
+            <div class="sc-item-desc">Complex formulas, pivot tables, VBA, Solver</div>
+          </li>
+        </ul>
+      </article>
+
+      <article class="skill-card sc-prog">
+        <header class="sc-head">
+          <span class="sc-icon">🧮</span>
+          <h3 class="sc-title">Programming &amp; Analytics</h3>
+        </header>
+        <ul class="sc-list">
+          <li class="sc-item">
+            <div class="sc-item-title">Python <span class="muted">(Pandas, NumPy)</span></div>
+            <div class="sc-item-desc">Data analysis, statistical modeling</div>
+          </li>
+          <li class="sc-item">
+            <div class="sc-item-title">SQL <span class="muted">(PostgreSQL, MySQL)</span></div>
+            <div class="sc-item-desc">Complex queries, database design</div>
+          </li>
+          <li class="sc-item">
+            <div class="sc-item-title">R</div>
+            <div class="sc-item-desc">Statistical analysis, data mining</div>
+          </li>
+          <li class="sc-item">
+            <div class="sc-item-title">Scikit-learn / LightGBM</div>
+            <div class="sc-item-desc">ML modeling and evaluation</div>
+          </li>
+        </ul>
+      </article>
+
+      <article class="skill-card sc-biz">
+        <header class="sc-head">
+          <span class="sc-icon">📈</span>
+          <h3 class="sc-title">Business &amp; Statistical Analysis</h3>
+        </header>
+        <ul class="sc-list">
+          <li class="sc-item">
+            <div class="sc-item-title">A/B Testing</div>
+            <div class="sc-item-desc">Experimental design, hypothesis testing</div>
+          </li>
+          <li class="sc-item">
+            <div class="sc-item-title">DOE &amp; ANOVA</div>
+            <div class="sc-item-desc">Factor experiments, variance analysis</div>
+          </li>
+          <li class="sc-item">
+            <div class="sc-item-title">Forecasting</div>
+            <div class="sc-item-desc">Time series &amp; demand planning</div>
+          </li>
+          <li class="sc-item">
+            <div class="sc-item-title">Decision Modeling <span class="muted">(Excel Solver)</span></div>
+            <div class="sc-item-desc">Optimization &amp; what-if scenarios</div>
+          </li>
+        </ul>
+      </article>
+
+      <article class="skill-card sc-eng">
+        <header class="sc-head">
+          <span class="sc-icon">🗄️</span>
+          <h3 class="sc-title">Data Engineering &amp; Tools</h3>
+        </header>
+        <ul class="sc-list">
+          <li class="sc-item">
+            <div class="sc-item-title">ETL Workflows</div>
+            <div class="sc-item-desc">Pipeline automation &amp; orchestration</div>
+          </li>
+          <li class="sc-item">
+            <div class="sc-item-title">Snowflake / Databricks</div>
+            <div class="sc-item-desc">Cloud data warehousing &amp; processing</div>
+          </li>
+          <li class="sc-item">
+            <div class="sc-item-title">Jupyter / VS Code</div>
+            <div class="sc-item-desc">Analytics &amp; development environments</div>
+          </li>
+          <li class="sc-item">
+            <div class="sc-item-title">Git / Jira / REST APIs</div>
+            <div class="sc-item-desc">Versioning, delivery, integrations</div>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+<!-- /Skills: Card Layout -->
+
+
+    
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-title">Featured Projects</h2>
+    <p class="body maxw center">A showcase of data analytics, statistical modeling, and optimization projects demonstrating real-world problem-solving skills.</p>
+
+    <div class="proj-grid">
+      <!-- Lean Six Sigma -->
+      <article class="proj-card">
+        <div class="proj-media" data-initials="LE">
+          <img src="./assets/images/gentech.png" alt="Lean Six Sigma — Gentech Case Study" loading="lazy" />
+        </div>
+        <div class="proj-body">
+          <span class="badge outline">Process Optimization</span>
+          <h3 class="proj-title">Lean Six Sigma – Gentech Case Study</h3>
+          <p class="proj-desc">DMAIC methodology applied to reduce proposal cycle time with dashboard and process optimization artifacts.</p>
+          <div class="chips small">
+            <span class="chip">DMAIC</span><span class="chip">Process Analysis</span><span class="chip">Dashboard Design</span>
+          </div>
+          <div class="proj-actions">
+            <a class="btn small outline" target="_blank" rel="noopener" href="https://github.com/milan121999/Lean-six-sigma-Case-study---Gentech"><svg class="gh" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 .5a12 12 0 00-3.79 23.4c.6.11.82-.26.82-.58v-2.16c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.09-.73.09-.73 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.31 3.53 1 .11-.8.42-1.31.76-1.61-2.66-.3-5.46-1.33-5.46-5.91 0-1.3.47-2.37 1.24-3.21-.12-.3-.54-1.52.12-3.17 0 0 1-.32 3.29 1.23a11.46 11.46 0 015.99 0c2.28-1.55 3.28-1.23 3.28-1.23.66 1.65.24 2.87.12 3.17.77.84 1.23 1.91 1.23 3.21 0 4.59-2.81 5.61-5.49 5.9.43.37.81 1.1.81 2.23v3.31c0 .32.21.7.82.58A12 12 0 0012 .5z"/></svg><span>GitHub</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- DOE -->
+      <article class="proj-card">
+        <div class="proj-media" data-initials="DE">
+          <img src="./assets/images/lego.jpg" alt="Design of Experiments (LEGO Vehicle)" loading="lazy" />
+        </div>
+        <div class="proj-body">
+          <span class="badge outline">Statistical Analysis</span>
+          <h3 class="proj-title">Design of Experiments (LEGO Vehicle)</h3>
+          <p class="proj-desc">Factorial design and ANOVA analysis in Minitab achieving ~30% trial reduction through statistical optimization.</p>
+          <div class="chips small">
+            <span class="chip">Minitab</span><span class="chip">ANOVA</span><span class="chip">DOE</span><span class="chip">Statistical Modeling</span>
+          </div>
+          <div class="proj-actions">
+            <a class="btn small outline" target="_blank" rel="noopener" href="https://github.com/milan121999/Design-Of-Experiments"><svg class="gh" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 .5a12 12 0 00-3.79 23.4c.6.11.82-.26.82-.58v-2.16c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.09-.73.09-.73 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.31 3.53 1 .11-.8.42-1.31.76-1.61-2.66-.3-5.46-1.33-5.46-5.91 0-1.3.47-2.37 1.24-3.21-.12-.3-.54-1.52.12-3.17 0 0 1-.32 3.29 1.23a11.46 11.46 0 015.99 0c2.28-1.55 3.28-1.23 3.28-1.23.66 1.65.24 2.87.12 3.17.77.84 1.23 1.91 1.23 3.21 0 4.59-2.81 5.61-5.49 5.9.43.37.81 1.1.81 2.23v3.31c0 .32.21.7.82.58A12 12 0 0012 .5z"/></svg><span>GitHub</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Production Optimization -->
+      <article class="proj-card">
+        <div class="proj-media" data-initials="PR">
+          <img src="./assets/images/excel_optimization.webp" alt="Production Optimization" loading="lazy" />
+        </div>
+        <div class="proj-body">
+          <span class="badge outline">Operations Research</span>
+          <h3 class="proj-title">Production Optimization</h3>
+          <p class="proj-desc">Excel Solver model generating +$77k net monthly profit and +25.4% profitability improvement.</p>
+          <div class="chips small">
+            <span class="chip">Excel</span><span class="chip">Solver</span><span class="chip">Optimization</span><span class="chip">Financial Modeling</span>
+          </div>
+          <div class="proj-actions">
+            <a class="btn small outline" target="_blank" rel="noopener" href="https://github.com/milan121999/Production-Optimization"><svg class="gh" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 .5a12 12 0 00-3.79 23.4c.6.11.82-.26.82-.58v-2.16c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.09-.73.09-.73 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.31 3.53 1 .11-.8.42-1.31.76-1.61-2.66-.3-5.46-1.33-5.46-5.91 0-1.3.47-2.37 1.24-3.21-.12-.3-.54-1.52.12-3.17 0 0 1-.32 3.29 1.23a11.46 11.46 0 015.99 0c2.28-1.55 3.28-1.23 3.28-1.23.66 1.65.24 2.87.12 3.17.77.84 1.23 1.91 1.23 3.21 0 4.59-2.81 5.61-5.49 5.9.43.37.81 1.1.81 2.23v3.31c0 .32.21.7.82.58A12 12 0 0012 .5z"/></svg><span>GitHub</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Motor Vehicle Theft -->
+      <article class="proj-card">
+        <div class="proj-media" data-initials="MO">
+          <img src="./assets/images/motorVehicleThefts.png" alt="Motor Vehicle Theft Analysis (Phoenix)" loading="lazy" />
+        </div>
+        <div class="proj-body">
+          <span class="badge outline">Data Analysis</span>
+          <h3 class="proj-title">Motor Vehicle Theft Analysis (Phoenix)</h3>
+          <p class="proj-desc">Exploratory data analysis and geographical mapping providing insights and data storytelling.</p>
+          <div class="chips small">
+            <span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">Matplotlib</span><span class="chip">Geospatial Analysis</span>
+          </div>
+          <div class="proj-actions">
+            <a class="btn small outline" target="_blank" rel="noopener" href="https://github.com/milan121999/Motor-Vehicle-Theft-Analysis"><svg class="gh" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 .5a12 12 0 00-3.79 23.4c.6.11.82-.26.82-.58v-2.16c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.09-.73.09-.73 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.31 3.53 1 .11-.8.42-1.31.76-1.61-2.66-.3-5.46-1.33-5.46-5.91 0-1.3.47-2.37 1.24-3.21-.12-.3-.54-1.52.12-3.17 0 0 1-.32 3.29 1.23a11.46 11.46 0 015.99 0c2.28-1.55 3.28-1.23 3.28-1.23.66 1.65.24 2.87.12 3.17.77.84 1.23 1.91 1.23 3.21 0 4.59-2.81 5.61-5.49 5.9.43.37.81 1.1.81 2.23v3.31c0 .32.21.7.82.58A12 12 0 0012 .5z"/></svg><span>GitHub</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Sentiment Analysis -->
+      <article class="proj-card">
+        <div class="proj-media" data-initials="SE">
+          <img src="./assets/images/sentiment_analysis.png" alt="Sentiment Analysis (NLP)" loading="lazy" />
+        </div>
+        <div class="proj-body">
+          <span class="badge outline">Machine Learning</span>
+          <h3 class="proj-title">Sentiment Analysis (NLP)</h3>
+          <p class="proj-desc">BERTopic model for theme extraction and churn/retention insights from customer feedback data.</p>
+          <div class="chips small">
+            <span class="chip">Python</span><span class="chip">BERTopic</span><span class="chip">NLP</span><span class="chip">Customer Analytics</span>
+          </div>
+          <div class="proj-actions">
+            <a class="btn small outline" target="_blank" rel="noopener" href="https://github.com/milan121999/Sentiment-analysis"><svg class="gh" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 .5a12 12 0 00-3.79 23.4c.6.11.82-.26.82-.58v-2.16c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.09-.73.09-.73 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.31 3.53 1 .11-.8.42-1.31.76-1.61-2.66-.3-5.46-1.33-5.46-5.91 0-1.3.47-2.37 1.24-3.21-.12-.3-.54-1.52.12-3.17 0 0 1-.32 3.29 1.23a11.46 11.46 0 015.99 0c2.28-1.55 3.28-1.23 3.28-1.23.66 1.65.24 2.87.12 3.17.77.84 1.23 1.91 1.23 3.21 0 4.59-2.81 5.61-5.49 5.9.43.37.81 1.1.81 2.23v3.31c0 .32.21.7.82.58A12 12 0 0012 .5z"/></svg><span>GitHub</span></a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="proj-footer">
+	  <p class="muted center">Interested in seeing more of my work?</p>
+      <a class="btn outline" target="_blank" rel="noopener" href="https://github.com/milan121999">View All Projects on GitHub</a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Experience: REPLACED with exp-card version (scoped styles) -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Professional Experience</h2>
+        <p class="body maxw center">3 years of hands‑on experience in data analytics, business intelligence, and process optimization across consulting and enterprise environments.</p>
+
+        <div class="exp-list">
+          <article class="exp-card">
+            <span class="exp-accent" aria-hidden="true"></span>
+            <div class="exp-head">
+              <div class="exp-title">
+                <h3>Intern Business Analyst</h3>
+                <a href="https://newgridconsulting.com/" target="_blank" rel="noopener" class="company">NewGrid Consulting</a>
+              </div>
+              <a href="#experience-stats" class="exp-impact">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                <span>Key Impact</span>
+              </a>
+            </div>
+            <div class="exp-meta">
+              <span class="meta">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Arizona, US
+              </span>
+              <span class="meta">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                Jan 2025 – May 2025
+              </span>
+            </div>
+            <ul class="exp-bullets">
+              <li>Delivered $1.5M+ in annual profit gains by designing dashboards and forecasting models that integrated 15‑min interval pricing and liquidity data into semantic models, supporting trading efficiency.</li>
+              <li>Accelerated decision‑making by 75% by deploying an end‑to‑end forecasting platform (Python, FastAPI, AWS S3) with automated ingestion, model retraining, and UI‑based forecast access for risk analysis.</li>
+              <li>Streamlined manual processing by 80% through scalable pipelines integrating structured SQL and semi‑structured JSON data sources, enabling daily model updates and seamless cloud‑based reporting.</li>
+            </ul>
+            <div class="chips">
+              <span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">AWS S3</span><span class="chip">SQL</span>
+              <span class="chip">JSON</span><span class="chip">Dashboards</span><span class="chip">Forecasting</span>
+            </div>
+          </article>
+
+          <article class="exp-card">
+            <span class="exp-accent" aria-hidden="true"></span>
+            <div class="exp-head">
+              <div class="exp-title">
+                <h3>Analyst</h3>
+                <a href="https://www.accenture.com/" target="_blank" rel="noopener" class="company">Accenture</a>
+              </div>
+              <a href="#experience-stats" class="exp-impact">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                <span>Key Impact</span>
+              </a>
+            </div>
+            <div class="exp-meta">
+              <span class="meta">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Bengaluru, Karnataka, India
+              </span>
+              <span class="meta">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                Oct 2021 – May 2024
+              </span>
+            </div>
+            <ul class="exp-bullets">
+              <li>Built and maintained enterprise SQL/Power BI monitoring dashboards, gathering stakeholder requirements to align with business intelligence and data governance standards, reducing defects to &lt;5%.</li>
+              <li>Reduced testing costs by 90% by building a Python/SQL automation tool, improving data quality and reliability for customer‑facing reporting.</li>
+              <li>Partnered with Marketing, Product, and Strategy teams to document customer data flows and analytics requirements, ensuring adoption of insights and improving timelines by 25%.</li>
+              <li>Enhanced software performance by 15% through diagnostic analytics to optimize execution paths and stability metrics.</li>
+            </ul>
+            <div class="chips">
+              <span class="chip">SQL</span><span class="chip">Power BI</span><span class="chip">Python</span><span class="chip">Agile</span>
+              <span class="chip">QA</span><span class="chip">Data Governance</span>
+            </div>
+          </article>
+        </div>
+
+        <div id="experience-stats" class="grid stats three">
+          <div class="stat"><div class="stat-num">$1.5M+</div><div class="stat-label">Annual Profit Delivered</div></div>
+          <div class="stat"><div class="stat-num">90%</div><div class="stat-label">Efficiency Improvements</div></div>
+          <div class="stat"><div class="stat-num">75%</div><div class="stat-label">Faster Decision Making</div></div>
+        </div>
+      </div>
+    </section>
+
+    
+<section id="education" class="section">
+  <div class="container">
+    <h2 class="section-title">Education</h2>
+    <p class="body maxw center">Academic foundation in business analytics, statistical modeling, and engineering with strong analytical and problem‑solving skills.</p>
+
+    <!-- Masters -->
+    <article class="ed-card">
+      <div class="ed-left">
+        <div class="ed-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.1 2.7 2 6 2s6-.9 6-2v-5"/></svg></div>
+        <div class="ed-head">
+          <h3 class="ed-title">Master of Science, Business Analytics</h3>
+          <a class="ed-school" target="_blank" rel="noopener" href="https://wpcarey.asu.edu/">W. P. Carey School of Business, Arizona State University</a>
+          <div class="ed-meta">
+            <span class="meta"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> Aug 2024 – May 2025</span>
+            <span class="meta">GPA: 3.88/4.0</span>
+            <span class="meta">Arizona, US</span>
+          </div>
+        </div>
+      </div>
+      <div class="ed-gpa">
+        <div class="gpa-num">3.88</div>
+        <div class="gpa-label">GPA</div>
+      </div>
+      <p class="ed-desc">Advanced coursework in statistical modeling, machine learning, data mining, and business intelligence. Focus on customer analytics, forecasting, and decision optimization.</p>
+      <div class="ed-keys">
+        <div class="keys-title">Key Areas &amp; Projects:</div>
+        <div class="keys-grid">
+          <div class="key"><span class="ed-dot" aria-hidden="true"></span> Statistical Modeling &amp; Optimization (DOE)</div>
+          <div class="key"><span class="ed-dot" aria-hidden="true"></span> Decision Modeling &amp; Profitability Analysis</div>
+          <div class="key"><span class="ed-dot" aria-hidden="true"></span> Customer Insights &amp; Retention Analysis (NLP)</div>
+          <div class="key"><span class="ed-dot" aria-hidden="true"></span> Advanced Analytics &amp; Machine Learning</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Bachelors -->
+    <article class="ed-card">
+      <div class="ed-left">
+        <div class="ed-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.1 2.7 2 6 2s6-.9 6-2v-5"/></svg></div>
+        <div class="ed-head">
+          <h3 class="ed-title">Bachelor of Engineering, Electronics and Communication</h3>
+          <a class="ed-school" target="_blank" rel="noopener" href="https://vvce.ac.in/">Vidyavardhaka College of Engineering, India</a>
+          <div class="ed-meta">
+            <span class="meta"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> Aug 2017 – Aug 2021</span>
+            <span class="meta">GPA: 7.87/10.0</span>
+            <span class="meta">India</span>
+          </div>
+        </div>
+      </div>
+      <div class="ed-gpa">
+        <div class="gpa-num">7.87</div>
+        <div class="gpa-label">GPA</div>
+      </div>
+      <p class="ed-desc">Strong foundation in mathematics, statistics, and analytical thinking. Coursework included signal processing, Python programming, data structures, and engineering problem‑solving.</p>
+      <div class="ed-keys">
+        <div class="keys-title">Key Areas &amp; Projects:</div>
+        <div class="keys-grid">
+          <div class="key"><span class="ed-dot" aria-hidden="true"></span> Mathematics &amp; Statistical Analysis</div>
+          <div class="key"><span class="ed-dot" aria-hidden="true"></span> Signal Processing &amp; Data Analysis</div>
+          <div class="key"><span class="ed-dot" aria-hidden="true"></span> Programming &amp; Algorithm Design</div>
+          <div class="key"><span class="ed-dot" aria-hidden="true"></span> Engineering Problem Solving</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Focus Areas panel -->
+    <div class="ed-focus card-muted">
+      <h3 class="ed-focus-title">Academic Focus Areas</h3>
+      <p class="ed-focus-body">My educational journey combines rigorous analytical training with practical business applications. The Master's program at ASU emphasizes real‑world problem solving through statistical modeling, machine learning, and data‑driven decision making, while my engineering background provides strong mathematical foundations and systematic thinking approaches.</p>
+    </div>
+  </div>
+</section>
+
+
+    
+<section id="certifications" class="section">
+  <div class="container">
+    <h2 class="section-title">Certifications</h2>
+    <p class="body maxw center">Professional certifications demonstrating expertise in cloud computing, business analytics, and data analysis technologies.</p>
+
+    <!-- AWS -->
+    <article class="cert-card">
+      <div class="cert-left">
+        <div class="cert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="5"/><path d="M8.5 13L7 22l5-3 5 3-1.5-9"/></svg></div>
+        <div class="cert-head">
+          <h3 class="cert-title">AWS Cloud Practitioner Essentials</h3>
+          <a class="cert-issuer" target="_blank" rel="noopener">Amazon Web Services (AWS) - Coursera</a>
+          <div class="cert-verified"><span class="v-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></span> <span>Verified</span></div>
+        </div>
+      </div>
+      <p class="cert-desc">Fundamental understanding of AWS cloud concepts, services, security, architecture, pricing, and support.</p>
+      <div class="cert-keys">
+        <div class="keys-title">Key Skills:</div>
+        <div class="chips">
+          <span class="chip">Cloud Computing</span><span class="chip">AWS Services</span><span class="chip">Cloud Architecture</span><span class="chip">Security Fundamentals</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- McKinsey -->
+    <article class="cert-card">
+      <div class="cert-left">
+        <div class="cert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="5"/><path d="M8.5 13L7 22l5-3 5 3-1.5-9"/></svg></div>
+        <div class="cert-head">
+          <h3 class="cert-title">McKinsey Forward Program</h3>
+          <a class="cert-issuer" target="_blank" rel="noopener">McKinsey &amp; Company</a>
+          <div class="cert-verified"><span class="v-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></span> <span>Verified</span></div>
+        </div>
+      </div>
+      <p class="cert-desc">Comprehensive business skills program covering strategy, analytics, leadership, and problem‑solving methodologies.</p>
+      <div class="cert-keys">
+        <div class="keys-title">Key Skills:</div>
+        <div class="chips">
+          <span class="chip">Strategic Thinking</span><span class="chip">Business Analytics</span><span class="chip">Leadership</span><span class="chip">Problem Solving</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- IBM -->
+    <article class="cert-card">
+      <div class="cert-left">
+        <div class="cert-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="5"/><path d="M8.5 13L7 22l5-3 5 3-1.5-9"/></svg></div>
+        <div class="cert-head">
+          <h3 class="cert-title">IBM Data Analytics with Excel and R</h3>
+          <a class="cert-issuer" target="_blank" rel="noopener" IBM - Coursera</a>
+          <div class="cert-verified"><span class="v-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></span> <span>Verified</span></div>
+        </div>
+      </div>
+      <p class="cert-desc">Hands‑on training in data analysis techniques using Excel and R, covering statistical analysis and data visualization.</p>
+      <div class="cert-keys">
+        <div class="keys-title">Key Skills:</div>
+        <div class="chips">
+          <span class="chip">Data Analysis</span><span class="chip">Excel</span><span class="chip">R Programming</span><span class="chip">Statistical Analysis</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Continuous learning panel -->
+    <div class="cert-focus card-muted">
+      <h3 class="cert-focus-title">Continuous Learning</h3>
+      <p class="cert-focus-body">These certifications represent my commitment to staying current with industry trends and best practices. From cloud computing fundamentals to advanced analytics methodologies, I continuously expand my skill set to deliver cutting‑edge solutions. I'm currently pursuing additional certifications in machine learning and advanced data visualization to further enhance my capabilities.</p>
+    </div>
+  </div>
+</section>
+
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="body maxw center">Ready to turn your data into actionable insights? I'm always interested in discussing new opportunities and challenging projects.</p>
+        <div class="grid contact">
+          <div class="card">
+            <h3 class="card-title">Get In Touch</h3>
+            <p class="card-body">I'm currently open to new opportunities in data analytics, business intelligence, and customer insights roles. Whether you have a specific project in mind or just want to connect, I'd love to hear from you.</p>
+            <ul class="contact-list">
+              <li><span>📧 Email:</span> <a href="mailto:milanparemajalu@gmail.com">milanparemajalu@gmail.com</a></li>
+              <li><span>📞 Phone:</span> <a href="tel:+14807914670">+1 (480) 791‑4670</a></li>
+              <li><span>📍 Location:</span> Novi, MI</li>
+            </ul>
+            <div class="card-actions">
+                <a class="btn outline" target="_blank" rel="noopener" href="https://www.linkedin.com/in/milan-paremajalu-suresh-311028205/">
+                  <img src="assets/images/linkedin.gif" alt="LinkedIn" class="icon-anim" width="22" height="22" />
+                  LinkedIn
+                </a>
+                <a class="btn outline" target="_blank" rel="noopener" href="https://github.com/milan121999">
+                  <img src="assets/images/github.gif" alt="GitHub" class="icon-anim" width="22" height="22" />
+                  GitHub
+                </a>
+            </div>
+          </div>
+          <div class="card-1">
+            <h3 class="card-title">Send a Message</h3>
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="grid form-grid">
+                <div>
+                  <label class="label" for="c-name">Name</label>
+                  <input id="c-name" name="name" type="text" class="input" placeholder="Your name" required>
+                  <div class="form-msg" data-for="name"></div>
+                </div>
+                <div>
+                  <label class="label" for="c-email">Email</label>
+                  <input id="c-email" name="email" type="email" class="input" placeholder="you@example.com" required>
+                  <div class="form-msg" data-for="email"></div>
+                </div>
+              </div>
+              <div class="grid two mt">
+                <div>
+                  <label class="label" for="c-subject">Subject</label>
+                  <select id="c-subject" name="subject" class="input">
+                    <option>General</option>
+                    <option>Opportunities</option>
+                    <option>Collaboration</option>
+                  </select>
+                </div>
+                <div class="consent">
+                  <label class="checkbox">
+                    <input type="checkbox" id="c-consent" />
+                    <span class="checkbox-box"><span class="checkbox-check">✓</span></span>
+                    I agree to be contacted
+                  </label>
+                  <div class="form-msg" data-for="consent"></div>
+                </div>
+              </div>
+              <label class="label mt" for="c-message">Message</label>
+              <textarea id="c-message" name="message" class="input" rows="6" placeholder="Your message"></textarea>
+              <div class="cta">
+                <button class="btn primary" type="submit">Send</button>
+                <button class="btn outline" type="button" id="privacy-pop">Privacy</button>
+              </div>
+              <div class="popover-content" id="privacy-note" hidden role="dialog">
+                <div class="card-title">Privacy note</div>
+                <div class="card-body">Your email will be used only to reply to your inquiry.</div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!--  <p class="muted center mt">© <span id="year"></span> Milan Paremajalu Suresh. Built with HTML, CSS &amp; JS.</p>  -->
+      </div>
+      <div id="toaster" class="toaster" aria-live="polite" aria-atomic="true"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year-2"></span> Milan Paremajalu Suresh • All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+  // Float-in on scroll for all content inside sections
+  (() => {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          io.unobserve(entry.target); // animate once
+        }
+      });
+    }, { rootMargin: '0px 0px -10% 0px', threshold: 0.12 });
+
+    // pick every direct child inside each .section .container
+    document.querySelectorAll('.section .container').forEach(container => {
+      const kids = Array.from(container.children);
+      kids.forEach((el, i) => {
+        // avoid header/nav wrappers if you have any inside containers
+        if (el.matches('header, nav')) return;
+
+        el.classList.add('reveal');
+        // stagger: 0ms, 60ms, 120ms... capped to keep it snappy
+        el.style.setProperty('--reveal-delay', `${Math.min(i * 60, 420)}ms`);
+        io.observe(el);
+      });
+    });
+
+    // also reveal common card types individually (if they’re not direct children)
+    document.querySelectorAll(
+      '.exp-card, .edu-card, .cert-card, .project-card, .card, .card-1'
+    ).forEach((el, i) => {
+      if (!el.classList.contains('reveal')) {
+        el.classList.add('reveal');
+        el.style.setProperty('--reveal-delay', `${Math.min(i * 60, 360)}ms`);
+        io.observe(el);
+      }
+    });
+	})();
+	</script>
+
+
+</body>
+</html>
